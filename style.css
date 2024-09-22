@@ -187,7 +187,7 @@ header { display: flex;
             }
         
         .hero-text{width: 80%;
-         margin: 105px 0 0 0;
+         margin: 120px 0 0 0;
                        }
         
         .hero h5 { font-size: 22px;}
@@ -202,9 +202,9 @@ header { display: flex;
     }
 
     .botones a{ 
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
-        padding: 14px 20px;
+        padding: 14px 25px;
        
 
     }
@@ -223,7 +223,7 @@ header { display: flex;
     }
 
     .redes a {margin-left: 8px;}
-    .redes i {font-size: 30px;
+    .redes i {font-size: 40px;
     
     }
  }
