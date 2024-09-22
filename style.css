@@ -16,8 +16,6 @@ header { display: flex;
     z-index: 1;
     background: #673e3e;
     box-shadow: 1px 2px 15px #c99898;
-
-
 }
 
 .logo img {  width: 155px;
@@ -83,7 +81,6 @@ header { display: flex;
     letter-spacing: 1px;
     margin-top: 40px;
 
-
  
  }
 
@@ -98,15 +95,15 @@ header { display: flex;
     line-height: 1.4;
     font-size: 14px;
     font-weight: 500;
-    border-radius: 30px;
+    border-radius: 25px;
     text-transform: uppercase;
     transition: all 1s ease;
-    margin: 50vh 25px 0 0;
+    margin: 57vh 25px 0 0;
     color: #e8d4d4;
 }
 
-.hero-text a:hover{
-    background-color: transparent;
+.botones a:hover{
+    background-color: #643c3c79;
     border: 1px solid white;
     transform: translateX(12px);
     
@@ -135,6 +132,7 @@ header { display: flex;
 .redes i:hover{
     color: #855050a5;
     transform: translateY(-5px);
+   
 }
 
 
@@ -143,23 +141,21 @@ header { display: flex;
     background-color: #f3e3d3 ;
 }
 
-@media (max-width: 992px){
-    section { padding: 0 3%;
-        transition: .2s;
-}
 
+ @media ( max-width:720px){
+    header { padding:8px 5% 0px ;}
+    .nav-list a { margin-left: 25px;}
+    
+    .botones {margin-top: 60vh;}
+    
+    .botones a {
+        display: block;
+        margin: 15px;
+        transition: all 2s ease;
+        width: 55%;
+        font-size: 14px;
+        text-align: center;
+    }
 
-.hero-img{
-    text-align: center;
-}
-
-.hero-img img{
-    width: 80%;
-    margin: 10% 0 0 10%;
-}
-
-.logo { 
-    font-size: 15px;
-}
-
-}
+    .botones i{ display: none;}
+ }
