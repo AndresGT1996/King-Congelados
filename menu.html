@@ -27,12 +27,16 @@
     <header>
         <a href="index.html" class="logo"><img src="./img/img-index/logoKing.png" alt="King-Congelados y Delicias"></a>
 
-        <ul class="nav-list">
+        <ul class="nav-list" >
             <li><a href="index.html" class="loquesea">Home</a></li>
             <li><a href="menu.html">Menú</a></li>
             <li><a href="#">Sombre Nosotros</a></li>
             <li><a href="#">Conctacto</a></li>
         </ul>
+
+        <div class="menu-desplegable">
+            <i class='bx bx-menu' onclick="togleMenu()"></i>
+        </div>
     </header>
 
    <main>
@@ -50,6 +54,19 @@
     </div>
 
    </main>
-    
+
+   <script>
+
+    function togleMenu(){
+        let activar = document.querySelector(".nav-list");
+
+        if (activar.style.visibility === "hidden" || activar.style.visibility === "" ) { activar.style.visibility = "visible";
+            
+        }
+        else{
+            activar.style.visibility = "hidden"
+        }
+    }
+   </script>
 </body>
 </html>
