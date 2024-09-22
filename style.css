@@ -180,7 +180,7 @@ header { display: flex;
         width: 100%;
         padding-left: 0;
         margin-bottom: 0;
-        transition:all 2s;
+        transition:all 1s;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -202,6 +202,7 @@ header { display: flex;
     }
 
     .botones a{ 
+        margin-top: 20px;
         font-size: 15px;
         text-align: center;
         padding: 14px 25px;
@@ -218,12 +219,13 @@ header { display: flex;
         margin-right: 5%;
         position: relative;
         top: -45px;
+        margin-top: 25px;
        
       
     }
 
     .redes a {margin-left: 8px;}
-    .redes i {font-size: 40px;
+    .redes i {font-size: 50%x;
     
     }
  }
