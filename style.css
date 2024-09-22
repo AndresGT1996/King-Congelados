@@ -68,6 +68,8 @@ header { display: flex;
     font-weight: 800;
 }
 
+
+
 .hero h5 { font-size: 30px;
     font-style: italic;
     font-family: "Poppins", sans-serif;;
@@ -85,7 +87,7 @@ header { display: flex;
  }
 
 
-.botones { margin-left: 32px;}
+.botones { margin-left: 3%;}
 
 .botones a { 
     display: inline-block;
@@ -98,7 +100,7 @@ header { display: flex;
     border-radius: 25px;
     text-transform: uppercase;
     transition: all 1s ease;
-    margin: 57vh 35px 0 0;
+    margin: 57vh 28px 0 0;
     color: #e8d4d4;
 }
 
@@ -142,7 +144,7 @@ header { display: flex;
 }
 
 
- @media ( max-width:720px){
+ @media ( max-width:750px){
     header { padding:8px 5% 0px ;}
     .nav-list a { margin-left: 25px;}
     
@@ -158,4 +160,41 @@ header { display: flex;
     }
 
     .botones i{ display: none;}
+ }
+
+ @media ( max-width:600px){
+    header { padding:8px 5% 0px ;
+        transition:all 2s;
+    
+    }
+    .nav-list a { margin-left: 18px;
+        font-size: 14px;
+    
+    }
+    
+ }
+
+ 
+ @media ( max-width:570px){
+    .hero { background-color: red ;
+        transition:all 2s;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 0;
+        
+            }
+
+       
+    .nav-list a {display: none;}
+
+    .hero-text{width: 90%;
+        margin-top: 95px;
+       
+    }
+    .nav-list a { margin-left: 18px;
+        font-size: 14px;
+    
+    }
+    
  }
