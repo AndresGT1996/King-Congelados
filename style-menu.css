@@ -43,5 +43,5 @@ header { display: flex;
 
 main img { 
     width: 100%;
-    height: 1300px;
+    height: auto;
 }

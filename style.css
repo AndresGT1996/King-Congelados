@@ -60,7 +60,7 @@ header { display: flex;
 }
 
 .hero-text{
-    margin-top: 220px;
+    margin: 220px 0 0 25px;
     background-color: #edd0d097;
     border-radius: 25px;
     padding: 3%;
@@ -85,7 +85,7 @@ header { display: flex;
  }
 
 
-
+.botones { margin-left: 32px;}
 
 .botones a { 
     display: inline-block;
@@ -98,7 +98,7 @@ header { display: flex;
     border-radius: 25px;
     text-transform: uppercase;
     transition: all 1s ease;
-    margin: 57vh 25px 0 0;
+    margin: 57vh 35px 0 0;
     color: #e8d4d4;
 }
 
