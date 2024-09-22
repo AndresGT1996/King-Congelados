@@ -177,7 +177,6 @@ header { display: flex;
  
  @media ( max-width:570px){
     .hero { 
-        grid-template-columns: 1fr;
         width: 100%;
         padding-left: 0;
         margin-bottom: 0;
@@ -188,7 +187,7 @@ header { display: flex;
             }
         
         .hero-text{width: 80%;
-         margin: 100px 0 0 0;
+         margin: 85px 0 0 0;
                        }
         
         .hero h5 { font-size: 22px;}
@@ -215,10 +214,11 @@ header { display: flex;
     }
     
     .redes { display: flex;
-        position: absolute;
-        bottom: 0;
-        align-items: flex-end;
+        position: static;
         margin-right: 5%;
+        position: relative;
+        top: -45px;
+       
       
     }
 
