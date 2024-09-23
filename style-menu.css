@@ -71,12 +71,12 @@ main img {
         left: 0;
         text-align: center;
         flex-direction: column;
-        color: red;
         background-color: #673e3ef5;
         gap: 5px;
         visibility: hidden;
         transition: all 0s;
     }
+
 
     .nav-list a{ transition: all 0s;
     
@@ -92,5 +92,6 @@ main img {
    
  
  }
+
 
  

@@ -143,6 +143,14 @@ header { display: flex;
     background-color: #f3e3d3 ;
 }
 
+.menu-desplegable{ font-size: 32px;
+    display: none;
+
+}
+
+.menu-desplegable i { color: #e6c8c8;}
+
+
 
  @media ( max-width:750px){
     header { padding:8px 5% 0px ;}
@@ -176,6 +184,38 @@ header { display: flex;
 
  
  @media ( max-width:570px){
+    .menu-desplegable{display: block;
+        transition: all 2s;}
+
+        .nav-list  {position: absolute;
+            top: 70px;
+            right: 0;
+            left: 0;
+            text-align: center;
+            flex-direction: column;
+            background-color: #673e3ef5;
+            gap: 5px;
+            visibility: hidden;
+            transition: all 0s;
+        }
+
+        .nav-list a{ transition: all 0s;   
+
+        }
+    
+        .nav-list li { padding: 10px 0;
+        transition: all 0s}
+
+        .nav-list li:hover{background-color: #835555 }
+    
+    
+    
+    
+
+
+
+
+
     .hero { 
         width: 100%;
         padding-left: 0;
@@ -193,9 +233,6 @@ header { display: flex;
         .hero h5 { font-size: 22px;}
         .hero h4 { font-size: 15px;}
             
-       
-    .nav-list a {display: none;}
-
 
     .botones{ margin: 0;
     display: flex;
@@ -209,10 +246,7 @@ header { display: flex;
        
 
     }
-    .nav-list a { margin-left: 18px;
-        font-size: 14px;
-    
-    }
+
     
     .redes { display: flex;
         position: static;
@@ -228,4 +262,6 @@ header { display: flex;
     .redes i {font-size: 50%x;
     
     }
+
+
  }
