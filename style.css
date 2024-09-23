@@ -208,30 +208,22 @@ header { display: flex;
 
         .nav-list li:hover{background-color: #835555 }
     
-    
-    
-    
-
-
 
 
 
     .hero { 
         width: 100%;
-        padding-left: 0;
-        margin-bottom: 0;
         transition:all 1s;
         display: flex;
         flex-direction: column;
-        align-items: center;
-            }
+        align-items: center;        }
         
         .hero-text{width: 80%;
-         margin: 120px 0 0 0;
+         margin: 125px 0 0 0;
                        }
         
-        .hero h5 { font-size: 22px;}
-        .hero h4 { font-size: 15px;}
+        .hero h5 { font-size: 25px;}
+        .hero h4 { font-size: 17px;}
             
 
     .botones{ margin: 0;
@@ -239,7 +231,7 @@ header { display: flex;
     }
 
     .botones a{ 
-        margin-top: 20px;
+        margin-top: 35px;
         font-size: 15px;
         text-align: center;
         padding: 14px 25px;
@@ -253,13 +245,13 @@ header { display: flex;
         margin-right: 5%;
         position: relative;
         top: -45px;
-        margin-top: 25px;
+        margin-top: 35px;
        
       
     }
 
-    .redes a {margin-left: 8px;}
-    .redes i {font-size: 50%x;
+    .redes a {margin-left: 15px;}
+    .redes i {font-size: 52px;
     
     }
 
