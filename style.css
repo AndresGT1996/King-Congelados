@@ -212,6 +212,7 @@ header { display: flex;
 
 
     .hero { 
+        background-position: top;
         width: 100%;
         transition:all 1s;
         display: flex;
