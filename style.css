@@ -255,5 +255,9 @@ header { display: flex;
     
     }
 
+    html, body {
+        overflow-x: hidden;
+    }
+
 
  }
