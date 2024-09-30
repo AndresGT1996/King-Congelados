@@ -43,7 +43,7 @@ header { display: flex;
 
 main img { 
     width: 100%;
-    height: auto;
+    height: 1200px;
 }
 
 .menu-desplegable{ font-size: 32px;
